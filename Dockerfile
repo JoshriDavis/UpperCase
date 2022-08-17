@@ -1,5 +1,5 @@
 
-FROM artifactory.rnd-hub.com:5007/rti-connext-dds:6.0.1 AS dds_builder
+#FROM artifactory.rnd-hub.com:5007/rti-connext-dds:6.0.1 AS dds_builder
 
  
 
