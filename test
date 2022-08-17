@@ -1,1 +1,0 @@
-wget -O - https://raw.githubusercontent.com/JoshriDavis/UpperCase/blob/main/BuildAndRun.sh | bash
