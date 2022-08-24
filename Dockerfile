@@ -1,3 +1,11 @@
-FROM ubuntu:20.04
-RUN apt-get -y update
-RUN apt-get -y install nginx
+FROM ubuntu
+
+COPY BuildAndRun.sh /BuildAndRun.sh
+COPY CMakeLists.txt /CMakeLists.txt
+COPY main.cpp /main.cpp
+COPY build /build
+COPY UpperCase /UpperCase
+
+RUN chmod +x /BuildAndRun.sh
+
+ENTRYPOINT ["/BuildAndRun.sh"]

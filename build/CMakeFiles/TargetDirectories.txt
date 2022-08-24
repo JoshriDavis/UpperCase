@@ -1,0 +1,3 @@
+/home/jonathan/Downloads/UpperCase-main/build/CMakeFiles/UpperCase.dir
+/home/jonathan/Downloads/UpperCase-main/build/CMakeFiles/edit_cache.dir
+/home/jonathan/Downloads/UpperCase-main/build/CMakeFiles/rebuild_cache.dir
